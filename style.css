@@ -12,13 +12,13 @@ body{
 #card{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     max-width: 320px;
     min-height: 497px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: white;
     text-align: center;
-    gap: 15px;
+    gap: 20px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -27,15 +27,19 @@ body{
 }
 
 #qr-image{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 p{
     font-size: 15px;
+    color: #7D889E;
+    width: 90%;
+    align-self: center;
 }
 
 h3{
     font-size: 22px;
+    color: #1F314F;
 }
 
 .attribution{
